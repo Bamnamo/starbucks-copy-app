@@ -1,0 +1,8 @@
+/* COMMON */
+body { color: #333; font-family: "Noto Sans KR",sans-serif; font-size: 16px; font-weight: 400; line-height: 1.4; } 
+img { display: block; } 
+
+/* HEADER */
+header { background-color: royalblue; } 
+header nav { width: 1100px; height: 120px; background-color: orange; margin: 0 auto; position: relative; } 
+header nav .logo { position: absolute; top: 0; bottom: 0; left: 0; margin: auto 0; height: 75px; } 
