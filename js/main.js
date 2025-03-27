@@ -63,6 +63,17 @@ fetch("header.html")
     );
   });
 
+// footer.html 로드 및 처리
+fetch("../footer.html")
+  .then((response) => response.text())
+  .then((data) => {
+    document.getElementById("footer-container").innerHTML = data;
+
+    const thisYearv = document.querySelector(".this-year");
+    thisYearv.textContent = new Date().getFullYear();
+  })
+  .catch((error) => console.error("Error loading footer:", error));
+
 const fadeEls = document.querySelectorAll(".visual .fade-in");
 fadeEls.forEach(function (fadeEl, index) {
   gsap.to(fadeEl, 1, {
@@ -176,5 +187,5 @@ spyEls.forEach((spyEl) => {
   });
 });
 
-const thisYearv = document.querySelector(".this-year");
-thisYearv.textContent = new Date().getFullYear();
+// const thisYearv = document.querySelector(".this-year");
+// thisYearv.textContent = new Date().getFullYear();
