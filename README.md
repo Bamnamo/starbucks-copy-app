@@ -8,8 +8,8 @@
 [main(master) 브랜치로 이동](https://github.com/Bamnamo/starbucks-copy-app) <br/>
 [signin 브랜치로 이동](https://github.com/Bamnamo/starbucks-copy-app/tree/signin)
 
-[DEMO](https://flamboyant-lumiere-482a1e.netlify.app/) <br/>
-[DEMO+signin](https://priceless-bhabha-83fc0d.netlify.app/)
+[DEMO](https://tiny-semolina-d65382.netlify.app/) <br/>
+[DEMO+signin](https://tiny-semolina-d65382.netlify.app/signin/)
 
 ![Starbucks](https://raw.githubusercontent.com/ParkYoungWoong/starbucks-vanilla-app/master/_assets/main_screenshot.jpg)
 
